@@ -1,0 +1,7 @@
+print("Calcule aqui o valor do seu desconto")
+
+valor_do_produto = input("Digite aqui o valor do produto: ")
+valor_do_desconto = input("Digite aqui o valor do desconto: %")
+valor_final = float(valor_do_produto) - float(valor_do_desconto)
+
+print(f"O valor do seu produto com desconto é: {valor_final}")
